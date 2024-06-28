@@ -1,10 +1,20 @@
 # Weekly Report
 
 - [Weekly Report](#weekly-report)
+  - [2024-06-28](#2024-06-28)
   - [2024-06-20](#2024-06-20)
 
+## 2024-06-28
+1. Fixed the NVIDIA Sionna problem by [installing it in Ubuntu systems](./Installation%20Guide.md#2-install-python-requirements).
+2. Duplicate the works of Sionna-RT by `Lauren Christy` into NTUST Sionna server - [result](../Ray%20Tracing.ipynb).
+
+**Next Targets**:
+1. Convert the NTUST Dorm 1 - 2F floor plan to be compatible with NVIDIA Sionna by `Alifya`
+2. Check the parameters in NVIDIA Sionna by `Lauren Christy`
+3. Fixed the latest error from ARUBA WiFi crawler by `Ian J.C.`
+
 ## 2024-06-20
-1. Successfully installed [Sionna-RT on Windows PC](./Installation%20Guide.md##2-sionna-installation-via-pip):
+1. Successfully installed [NVIDIA Sionna on Windows PC](./Installation%20Guide.md##2-sionna-installation-via-pip):
    1. Managed to install version 0.15.0, which is compatible with the current Windows version.
    2. Noted that the latest version available from Nvidia for Ubuntu is 0.18.0.
 2. Conducted a test on the [Hello_world.ipynb](../Hello_World.ipynb) template, sourced from the [NVIDIA template](https://nvlabs.github.io/sionna/examples/Hello_World.html).
@@ -45,4 +55,4 @@
 
     TypeError: missing a required argument: 'inputs'
     ```
-  - **Proposed Solution**: Install Sionna on an Ubuntu machine and retest using version 0.18.0.
+  - **Proposed Solution**: Install NVIDIA Sionna on an Ubuntu machine and retest using version 0.18.0.
